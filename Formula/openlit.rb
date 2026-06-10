@@ -37,6 +37,6 @@ class Openlit < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/openlit --version")
+    assert_match version.to_s, shell_output("#{bin}/openlit version")
   end
 end
